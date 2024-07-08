@@ -1,0 +1,30 @@
+/* RGB 
+   RGBA
+   HEXADECIMAL IT CONTAIN TOTAL 8 BIT 2 2 2 BIT IS FOR RED GREEN BLUE AND LAST IS FOR ALPHA 2 BIT  */
+
+
+
+
+/* h1{
+    color: rgb(14, 150, 201);
+    rgb stand for red green blue  these are primary colours 
+    why we call primary colors?
+    because we can make any colous using primary colors
+} */
+
+
+
+/* h1{
+
+    color: rgba(14, 150, 201, 0.5);
+    /* a is known as alpha which is used as a opacity it value lies in between(0 and 1) 
+    */
+    
+/* }  */
+
+
+
+/*  HEXADECIMAL #RRGGBB*/
+h1{
+ color: #898989;
+}

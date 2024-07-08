@@ -1,0 +1,43 @@
+/* combinator selector  */
+
+/* 1) descendant selector (space)  it can jump nth of times hierarchy*/
+/* div p{
+color: red;
+
+}
+div  ul li {
+    color: green;
+} */
+
+
+
+/* child selector ye step wise step chalta ha sequencially  */
+/* div > p{
+    color: blueviolet;
+}
+
+div > ol > li >  ul > li{
+    color: yellow;
+} */
+
+
+
+
+/* adjacent sibling (+) ye ek hi tag ko select karega or vo bhi top to bottom  */
+
+
+
+/* h1 + li{
+    /* background-color: green; */
+    /* color: green; */
+/* }  
+
+
+
+
+/* general sibling  select all the element from top to down  */
+/* 
+h1 ~ li{
+    background-color: green;
+    color: black;
+} */

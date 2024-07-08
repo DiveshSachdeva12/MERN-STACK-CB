@@ -1,0 +1,16 @@
+p::first-letter{
+    font-size: 100px;
+}
+p::first-line{
+    color: brown;
+    font-size: 20px;
+}
+h1::before{
+    content: 'This is ';
+}
+h1::after{
+    content: 'yes it is pseudo element'
+}
+::selection{
+    color: yellow;
+}

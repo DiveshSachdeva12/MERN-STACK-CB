@@ -1,0 +1,35 @@
+/* just same size all li no change */
+
+/* pexels */
+
+/* ol >li {
+    font-size: 30px;
+} */ 
+
+
+
+/* em */
+/* now use em by default font size is 16  */
+/* ye har font size ki hierarchy ko 16 se multiply krta ha or font size bada dikhta ha  */
+/* h1{
+    font-size: 8em;
+} */
+
+
+
+/* rem
+h1{
+    font-size: 4rem;
+} */
+
+
+/* vh veiw height */
+/* h1{
+    font-size: 10vh;
+} */
+
+
+/* vw view width */
+/* h1{
+    font-size: 10vw;
+} */

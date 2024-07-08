@@ -1,0 +1,24 @@
+
+/* link is used for unvisited link  */
+a:link{
+    color:brown;
+}
+
+/* this is used for visited link  */
+a:visited{
+    color: yellow;
+}
+
+/* hover  */
+button:hover{
+    background-color: black;
+    color: wheat;
+}
+
+button:active{
+    background-color: green;
+}
+
+button:focus{
+    background-color: blue;
+}
