@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* div{
+    height: 150px;
+    width: 150px;
+    border: 4px solid black;
+    display: inline-block;
+} */
+
+/* static will remain save will not change */
+/* #middlediv{
+    position: static;
+    top: 50px;
+} */
+
+
+/* relative position maintain gap and remain gap   */
+/* #middlediv1{
+    position: relative;
+    top: 200px;
+} */
+
+
+
+/* absolute position ko agar ancestor ki position na mile to by default body ki position leleta ha to pehle absolute ke parent ko position relative deni pdegi */
+/* .absolute{
+    position: relative;
+}
+#middlediv2{
+    position: absolute;
+    top: 180px;
+} */
+
+
+
+/* by default body  ki position le rha ha eske parents ko position deni pdegi fixed ke   */
+/* #fixed1{
+    position: relative;
+}
+#middlediv3{
+    position: fixed;
+    top: 500px;
+} */
+
+
+/* sticky */
+/* .sticky{
+    position: relative;
+    /* top:200px; */
+/* } */ 
+
+
+
+/* 
+#middlediv5{
+    position: sticky;
+    top: 500px;
+    left: 700px;
+} */
+
+
+.sticky{
+    position: sticky;
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    border: 5px solid black;
+    top: 50px;
+
+}
+.div1{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    border: 5px solid black;
+    /* margin-top: 50%; */
+}
