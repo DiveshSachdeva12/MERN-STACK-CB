@@ -1,0 +1,30 @@
+.container{
+    background-color: black;
+    /* height: 400px; */
+}
+.item{
+    height: 120px;
+    width: 200px;
+    background-color: orange;
+    border: 4px solid green;
+    transition-duration: 3s;
+    /* transition-timing-function: linear; */
+}
+.container:hover div{
+    width: 1500px;
+}
+#div-1{
+    transition-timing-function: ease;
+
+}
+#div-2{
+    transition-timing-function: ease-in;
+
+}#div-3{
+    transition-timing-function: ease-out;
+
+}
+#div-4{
+    transition-timing-function: ease-in-out;
+
+}

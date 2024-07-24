@@ -1,0 +1,34 @@
+
+.container{
+    display: grid;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    grid-template-areas: "header header header"
+                        "sidebar content1 content1"
+                        "sidebar content2 content3"
+                        "footer footer footer ";   
+}
+.item{
+    background-color: aqua;
+    border: 5px solid red;
+    padding: 1rem;
+}
+#div1{
+    grid-area: header;
+}
+#div2{
+    grid-area: sidebar;
+}
+#div3{
+    grid-area: content1;
+}
+#div4{
+    grid-area: content2;
+}
+#div5{
+    grid-area: content3;
+}
+#div6{
+    grid-area: footer;
+}

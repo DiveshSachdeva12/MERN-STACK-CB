@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    /* color: white; */
+    display: grid;
+    grid-template-columns: repeat(5 ,1fr);
+    grid-template-rows: repeat(6,1fr);
+    height: 100vh;
+    width: 100%;
+}
+.item{
+    background-color: aqua;
+    border: 4px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+#header{
+    /* grid-column-start: 1; */
+    /* grid-column-end: 6; */
+    grid-column: 1/6;
+    background-color: brown;
+}
+#nav-1{
+ /* grid-row-start: 2;
+ grid-row-end: 4; */
+ grid-row: 2/4;
+ background-color: bisque;
+}
+#nav-2{
+    /* grid-row-start: 4; */
+    /* grid-row-end: 6; */
+    grid-row: 4/6;
+    background-color:burlywood;
+}
+#main-content
+{
+    background-color:cadetblue;
+    /* grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 6; */
+
+    /* we can use these also */
+    grid-column: 2/5;
+    grid-row: 2/6;
+}
+#nav-3{
+    background-color:chartreuse;
+    grid-column-start: 5;
+    /* grid-column: 0/5; */
+    /* grid-row-start: 2;
+    grid-row-end: 6; */
+    grid-row: 2/6;
+    
+}
+#footer{
+    background-color:yellowgreen;
+    /* grid-column-start: 1;
+    grid-column-end: 6; */
+    grid-column: 1/6;
+
+
+
+}

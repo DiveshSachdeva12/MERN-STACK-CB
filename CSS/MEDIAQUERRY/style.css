@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+div{
+    background-color: bisque;
+    height: 200px;
+    width: 300px;
+    border: 2px solid black;
+    /* margin:150px auto; */
+}
+
+/* @media screen and (max-width:992px){
+    div{
+        background-color: brown;
+
+    }
+    h1{
+        font-family: monospace;
+        font-size: 16px;
+    }
+    p{
+        text-decoration: underline;
+    }
+}
+
+@media screen and (max-width:768px){
+    div{
+        background-color: green;
+
+    }
+    h1{
+        font-family: monospace;
+        font-size: 16px;
+    }
+    p{
+        text-decoration: underline;
+    }
+} */
+
+@media screen and (min-width:768px){
+    div{
+        background-color: green;
+
+    }
+    h1{
+        font-family: monospace;
+        font-size: 16px;
+    }
+    p{
+        text-decoration: underline;
+    }
+}
+@media screen and (min-width:992px){
+    div{
+        background-color: brown;
+
+    }
+    h1{
+        font-family: monospace;
+        font-size: 16px;
+    }
+    p{
+        text-decoration: underline;
+    }
+
+    /* landscape main height choti hoti ha width bdi hoti ha */
+    @media screen and (orientation:landscape){
+        
+    }
+    @media screen and (orientation:portrait){
+        
+    }
+    /* portrait main width choti hoti ha height bdi hoti ha */
+}
+
