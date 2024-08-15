@@ -41,7 +41,6 @@
     // }
 
     // let age=prompt("enter your age : ");
-
     // if(age<18){
     //     console.log("no entry");
     // }
@@ -67,4 +66,24 @@
     // else{
     //     console.log("papppu cant pass")
     // }
+
+
+
         
+    // ==================================================
+    // or operator main agar pehli wali true hogyi to dusri main nahi jayega check krne
+    // let marks=35; 
+    // let attendance=60;
+    // if(attendance>=50 || marks>=33){
+    //     console.log("pappu pass");
+    // }
+    // else{
+    //     console.log("pappu not pass"); 
+    // }
+    // because and main dono condition true honi chaiye
+    // if(marks>=30 && attendance<=75){
+//     console.log("pappu pass");
+// }
+// else{
+//     console.log("pappu not pass");
+// }

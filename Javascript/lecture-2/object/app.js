@@ -2,11 +2,12 @@
 //     fullname:"Divesh kumar Sachdeva",
 //     rollno:"229028"
 // }
+
 // Entire object is access by the name of the object 
 // console.log(name)
 
 // if we want to access the key of the object we can do as well
-// by (dot notation)
+// by (dot notation);
 // console.log(name.fullname);
 
 // ======================================================
@@ -27,7 +28,8 @@
 //     // fullname:"rohan kumar Sachdeva", /* this will run */
 //     rollno:"229028"
 // }
-// fullname="rohansingh"
+// name["fullname"]="Rohan";
+// name["rollno"]="100000";
 // // delete fullname
 // console.log(fullname);
 

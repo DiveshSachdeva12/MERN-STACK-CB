@@ -35,5 +35,17 @@
 
 // let ans8=(2*7)*(2/4)-2+10(3**4)
 // let ans8=(2*7)*(2/4)-2+10(3**4)=81
-// let ans8=(2*7)*(2/4)-2+10(3**4)=14
+// let ans8=(2*7)*(2/4)-2+10(3**4)=14ṇ
 // console.log(ans8)
+
+
+// == general equality :allows type coercion, converting values to a common type before comparison
+// === strict equality : does not allow type coercion and requires both values to be of the same type.
+
+// let a= null==undefined;
+// if(a){
+//     console.log("winner")
+// }
+// else{
+//     console.log("looser")
+// }

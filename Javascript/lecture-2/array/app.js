@@ -18,9 +18,8 @@
 // method of array 
 
 // Adding Elements: in array
-// 1.push push(): Adds an element to the end of an array.
+// 1.push(): Adds an element to the end of an array.
 // 2.unshift(): Adds an element to the beginning of an array
-
 // let arr=["apple ","mango","banana"];
 // arr.push("chocolate");
 // arr.unshift("pineapple");
@@ -85,7 +84,7 @@
 // We can define array with new or array keyword
 // let cars= new Array("divesh","kumar","sachdeva")
 // let length=cars.length
-// console.log(length)
+// console.log(length);
 
 // let index=cars.indexOf("kumar");
-// console.log(index)
+// console.log(index);
