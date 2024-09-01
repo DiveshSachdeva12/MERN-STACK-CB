@@ -145,3 +145,28 @@
 // higherorderfunction(function callbackfunction(){
 //     console.log("this is callback");
 // });
+
+
+// higher order function
+function fun(fn){
+    let a=10;
+    let b=20;
+    let result =a+b;
+    console.log(result);
+    // call back
+    fn() 
+    
+}
+
+function fun2(){
+    console.log("This is call back");
+    
+}
+fun(function fun2(){
+    console.log("This is call back");
+    
+})
+fun(fun2=()=>{
+    console.log("This is call back");
+    
+})
