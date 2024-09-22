@@ -1,0 +1,17 @@
+:root {
+    --primary-color: red;
+    --padding-size: 10px;
+    --font-size: 25px;
+    --font-family:Arial, Helvetica, sans-serif;
+  }
+  
+h1{
+    /* color: var(--primary-color); */
+    font-size: var(--font-size);
+    color: var(--h1color,red); /* we can create varible like this  */
+    font-family: var(--font-family);
+}
+/* Use a variable with a fallback */
+div{
+    background-color: var(--container-color,red); /* like this */
+}

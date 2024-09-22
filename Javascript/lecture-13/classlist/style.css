@@ -1,0 +1,32 @@
+/* .sam{
+    color: red;
+}
+.mav{
+    background-color: yellow;
+}
+.vohra{
+    text-decoration: line-through;
+}
+.kashish{
+    font-size: 100px;
+} */
+
+
+/* at home practise code  */
+.btn{
+    background-color: black;
+}
+.btn1{
+    color: white;
+}
+.btn2{
+    height: 80px;
+    width: 200px;
+}
+.btn3{
+    border-radius: 50px;
+    font-size: 25px;
+}
+.btn:hover{
+    background-color: green;
+}

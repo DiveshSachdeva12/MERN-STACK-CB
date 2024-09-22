@@ -118,11 +118,58 @@
 // let a=10;
 // console.log
 
-const obj = {
-    name: 'Bob',
-    greet: () => {
-        console.log(this.name);
-    }
-};
+// const obj = {
+//     name: 'Bob',
+//     greet: () => {
+//         console.log(this.name);
+//     }
+// };
 
-console.log(obj)
+// console.log(obj)
+
+// function closure1(){
+//     let count =0;
+
+//     function closrue2(){
+//         count+=1;
+//         console.log(count)
+//     }
+//     return closrue2;
+// }
+// const result=closure1()
+// result()
+// result()
+// result()
+// result()
+// result()
+// result()
+// result()
+// result()
+// result()
+// result()
+
+
+
+// / a question a value is increasing decreasing or reset
+
+// function privatevar(init){
+//     let counter=init;
+//     return{
+//         increment:function(){
+//             counter+=1;
+//             return counter;
+//         },
+//         decrement:function(){
+//             counter-=1;
+//             return counter;
+//         },
+//         reset:function(){
+//             counter=init;
+//             return counter;
+//         }
+//     }
+// }
+// const result=privatevar(10)
+// console.log(result.increment());
+// console.log(result.decrement());
+// console.log(result.reset());

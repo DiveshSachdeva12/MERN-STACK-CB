@@ -61,46 +61,46 @@
 // });
 
 // =================================
-let promiseone=new Promise(function(resolve,reject){
-    console.log("pls wait i am selecting image")
-    setTimeout(()=>{
-        resolve("selected image");
-    },4000);
-})
-promiseone.then(function(imagesel){
-    console.log(imagesel);
+// let promiseone=new Promise(function(resolve,reject){
+//     console.log("pls wait i am selecting image")
+//     setTimeout(()=>{
+//         resolve("selected image");
+//     },4000);
+// })
+// promiseone.then(function(imagesel){
+//     console.log(imagesel);
 
-    return new Promise(function(resolve,reject){
-        console.log("plz wait i am applying filter on selected image");
-        setTimeout(()=>{
-            resolve("filtered image")
+//     return new Promise(function(resolve,reject){
+//         console.log("plz wait i am applying filter on selected image");
+//         setTimeout(()=>{
+//             resolve("filtered image")
     
-        },5000);
+//         },5000);
     
-})
-.then(function(filter){
-    console.log(filter);
-    return new Promise(function(resolve,reject){
-        console.log("plz wait i am adding caption on  filtered image");
-        setTimeout(()=>{
-            resolve("captioned image");
-        },6000);
-    })
-    });
-})
-.then(function(caption){
-    console.log(caption);
+// })
+// .then(function(filter){
+//     console.log(filter);
+//     return new Promise(function(resolve,reject){
+//         console.log("plz wait i am adding caption on  filtered image");
+//         setTimeout(()=>{
+//             resolve("captioned image");
+//         },6000);
+//     })
+//     });
+// })
+// .then(function(caption){
+//     console.log(caption);
 
-    return new Promise(function(resolve,reject){
-        console.log("plzz wait uploading captioned image")
-        setTimeout(()=>{
-            resolve("image upload finally");
-        },7000);
-    })
-})
-.then(function(upload){
-    console.log(upload);
-});
+//     return new Promise(function(resolve,reject){
+//         console.log("plzz wait uploading captioned image")
+//         setTimeout(()=>{
+//             resolve("image upload finally");
+//         },7000);
+//     })
+// })
+// .then(function(upload){
+//     console.log(upload);
+// });
 // ============================================
 // example of uploading file
 // let promiseone = new Promise(function(resolve,reject){
@@ -153,3 +153,43 @@ promiseone.then(function(imagesel){
 
 
 
+
+
+// function step1(){
+// //     return new Promise((resolve,reject)=>{
+// //         console.log("file is strat downloading...")
+// //         setTimeout(()=>{
+// //             resolve("file is downloaded")
+// //         },2000)
+// //     })
+// // }
+// // function step2(){
+// //     return new Promise((resolve,reject)=>{
+// //         console.log("file is strat compressing...")
+// //         setTimeout(()=>{
+// //             resolve("file is compressed")
+// //         },2000)
+// //     })
+
+// // }
+// // function step3(){
+// //     return new Promise((resolve,reject)=>{
+// //         console.log("file is strat uploading...")
+// //         setTimeout(()=>{
+// //             resolve("file is uploaded")
+// //         },2000)
+// //     })
+
+// // }
+// // step1()
+// // .then((result)=>{
+// //     console.log(result)
+// //     return step2();
+// // })
+// // .then((result2)=>{
+// //     console.log(result2)
+// //     return step3();
+// // })
+// // .then((result3)=>{
+// //     console.log(result3)
+// // })

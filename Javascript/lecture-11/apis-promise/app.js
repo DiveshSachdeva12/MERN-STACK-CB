@@ -36,3 +36,117 @@
 // any ka matlab ha enme se sabse pehle hone wala resolve to uska output ajayega
 
 
+
+
+// practical start from here itself at home
+// APIS method....
+// promise.all
+// promise. allsettle
+// promise.race
+// promise.any
+
+// promise.all example=====================
+
+// let promiseone= new Promise((resolve,reject)=>{
+//     setTimeout(()=>{
+//         reject("Promise 1 resolved"); 
+//     },3000);
+// })
+// let promisetwo= new Promise((resolve,reject)=>{
+//     setTimeout(()=>{
+//         reject("Promise 2 resolved"); 
+//     },4000);
+// })
+// let promisethree= new Promise((resolve,reject)=>{
+//     setTimeout(()=>{
+//         reject("Promise 3 resolved"); 
+//     },5000);
+// })
+
+
+// 1st way of doing this 
+// let result=Promise.all([promiseone,promisetwo,promisethree])
+// result.then((values)=>{
+//     console.log(values)
+// })
+
+// second way of doing this 
+// Promise.all([promiseone,promisetwo,promisethree])
+// .then(function(pass){
+//     console.log(pass)
+// })
+
+
+
+// promise.allsettled example=========================
+
+// let promiseone= new Promise((resolve,reject)=>{
+//     setTimeout(()=>{
+//         resolve("Promise 1 resolved"); 
+//     },3000);
+// })
+// let promisetwo= new Promise((resolve,reject)=>{
+//     setTimeout(()=>{
+//         reject("Promise 2 rejected"); 
+//     },4000);
+// })
+// let promisethree= new Promise((resolve,reject)=>{
+//     setTimeout(()=>{
+//         resolve("Promise 3 resolved"); 
+//     },5000);
+// })
+// Promise.allSettled([promiseone,promisetwo,promisethree])
+// .then(function(allsettle){
+//     console.log(allsettle)
+// })
+
+
+
+
+// promise.any========================================
+// aggregate error all promises were rejected any one should be resolved
+// let promiseone= new Promise((resolve,reject)=>{
+//     setTimeout(()=>{
+//         reject("Promise 1 resolved"); 
+//     },1000);
+// })
+// let promisetwo= new Promise((resolve,reject)=>{
+//     setTimeout(()=>{
+//         resolve("Promise 2 resolved"); 
+//     },1000);
+// })
+// let promisethree= new Promise((resolve,reject)=>{
+//     setTimeout(()=>{
+//         reject("Promise 3 resolved"); 
+//     },1000);
+// })
+// Promise.any([promiseone,promisetwo,promisethree])
+// .then(function(any){
+//     console.log(any)
+// })
+
+
+
+
+// promise.race====================================
+// let promiseone= new Promise((resolve,reject)=>{
+//     setTimeout(()=>{
+//         resolve("Promise 1 resolved"); 
+//     },1000);
+// })
+// let promisetwo= new Promise((resolve,reject)=>{
+//     setTimeout(()=>{
+//         reject("Promise 2 rejected"); 
+//     },4000);
+// })
+// let promisethree= new Promise((resolve,reject)=>{
+//     setTimeout(()=>{
+//         resolve("Promise 3 resolved"); 
+//     },5000);
+// })
+// Promise.race([promiseone,promisetwo,promisethree])
+// .then(function(race){
+//     console.log(race)
+// })
+
+
